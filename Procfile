@@ -1,1 +1,1 @@
-worker: python nghias.py
+worker: python nghia.py
