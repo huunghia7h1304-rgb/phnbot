@@ -155,4 +155,4 @@ async def ban(interaction: discord.Interaction, member: discord.Member, reason: 
     await interaction.response.send_message(f"🔨 Đã ban vĩnh viễn **{member.name}**. Lý do: {reason}")
 
 # Chạy bot (Thay thế 'YOUR_BOT_TOKEN' bằng token mới của bạn)
-bot.run("MTUzMzQ4NDY4OTgxNjU1MTQ4NA.G09Piv.mQPjHbm8cBuNg-kw0oImuhXf61ixesxlHRK5LQ")
+bot.run(os.getenv("TOKEN"))
